@@ -14,7 +14,7 @@ html {
     scroll-behavior: smooth;
   }
 @include themable(dark-theme, $dark-theme-bg, $text-color, $btn-bg);
-@include themable(light-theme, #f0f0f0, #080707, #59a290);
+@include themable(light-theme, #fcfcfc, #080707, #59a290);
 
 .header {
     .logo-brand {
@@ -50,6 +50,7 @@ html {
 .main {
     .hero {
         margin-top: 1rem;
+        height: 65vh;
 
         &-area {
             border-radius: 13px 26px;
@@ -61,14 +62,16 @@ html {
         }
 
         &-banner {
-            height: 40vh;
             background-image: url(../../img/developer_activity_plain.svg);
             background-size: contain;
             background-repeat: no-repeat;
             background-position: right;
-            position: relative;
-            right: 2rem;
-            z-index: -1;
+            width: 27rem;
+            height: 27rem;
+            position: absolute;
+            right: 15%;
+            top: 10%;
+            z-index: -111;
         }
         .btn-download{
             border: none;
