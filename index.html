@@ -9,30 +9,88 @@
     <link rel="stylesheet" href="./assets/includes/styles/styles.css">
 </head>
 
-<body class="dark-theme">
+<body class="light-theme">
     <header class="header">
         <div class="logo-brand">
             <a href="/" class="logo-link">
                 <span class="logo-name">Coder69developer</span>
             </a>
         </div>
-        <nav class="navbar">            
-            <a href="/" class="btn list-link">Home</a>
-            <a href="/" class="btn list-link">About</a>
-            <a href="/" class="btn list-link">Project</a>
-            <a href="/" class="btn list-link">Contact</a>
+        <nav class="navbar">
+            <a href="#home" class="list-link">Home</a>
+            <a href="#about" class="list-link">About</a>
+            <a href="#project" class="list-link">Project</a>
+            <a href="#contact" class="list-link">Contact</a>
         </nav>
     </header>
     <main class="main">
-        <section class="hero">
+        <section class="hero" id="home">
             <div class="hero-area">
-                <h1 class="hero-area-title">Hey! Simran Singh here.</h1>
-                <p class="hero-area-para">I am Frontend-developer</p>
+                <h1>Hey! This is Simran Singh. <img src="./assets/icons/hand_wave_icon.png" alt="hand wave" width="30"
+                        height="30">
+                </h1>
+                <p>I am Frontend-developer with 2 years of experience.</p>
+                <button class="btn btn-download">Download CV</button>
             </div>
             <div class="hero-banner"></div>
         </section>
+        <!-- about section here -->
+        <div id="about" class="container">
+            <div class="container-about">
+                <h3>About me!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora fugiat assumenda in nemo nulla inventore illo enim alias magnam quam?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quis, harum rem quibusdam maiores, nisi
+                    fugiat maxime saepe tempore minus nulla vel! Nisi temporibus
+                    provident ullam earum! Architecto natus sapiente doloribus reiciendis illo voluptatibus facilis!</p>
+            </div>
 
-        <hr>
+            <!-- skills section here -->
+
+            <div class="container-skills">
+                <h3>Skills</h3>
+                <div class="div-grid">
+                    <div class="card">
+                        <img class="icon-svg" src="./assets/icons/html5.svg">
+                        <p>Html</p>
+                    </div>
+                    <div class="card">
+                        <img class="icon-svg" src="./assets/icons/css3.svg">
+                        <p>Css3</p>
+                    </div>
+                    <div class="card">
+                        <img class="icon-svg" src="./assets/icons/language-javascript.svg">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="card">
+                        <img class="icon-svg" src="./assets/icons/bootstrap.svg">
+                        <p>Bootstarp</p>
+                    </div>
+                    <div class="card">
+                        <img class="icon-svg" src="./assets/icons/material-ui.svg">
+                        <p>Material</p>
+                    </div>
+                    <div class="card">
+                        <img class="icon-svg" src="./assets/icons/angular.svg">
+                        <p>Angular</p>
+                    </div>
+                    <div class="card">
+                        <img class="icon-svg" src="./assets/icons/react.svg">
+                        <p>Reactjs</p>
+                    </div>
+                    <div class="card">
+                        <img class="icon-svg" src="./assets/icons/bulma.svg">
+                        <p>Bulma</p>
+                    </div>
+                    <div class="card">
+                        <img class="icon-svg" src="./assets/icons/linux.svg">
+                        <p>Linux</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </main>
 </body>
 
