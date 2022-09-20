@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Bellota', cursive;
+  font-size: 18px;
+}
+
+.dark-theme {
+  background-color: #111111;
+}
+
+.dark-theme * {
+  color: #fafafa;
+}
+
+.dark-theme .btn {
+  background-color: #fedb2b;
+  padding: .75rem 1.25rem;
+}
+
+.light-theme {
+  background-color: #f0f0f0;
+}
+
+.light-theme * {
+  color: #080707;
+}
+
+.light-theme .btn {
+  background-color: #32c78b;
+  padding: .75rem 1.25rem;
+}
+
+.header .logo-brand {
+  display: inline-block;
+  margin: 1rem 1.75rem;
+  padding-top: .75rem;
+  line-height: 1;
+}
+
+.header .logo-brand .logo-link {
+  text-decoration: none;
+}
+
+.header .logo-brand :hover {
+  cursor: pointer;
+}
+
+.header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.header .navbar a {
+  text-decoration: none;
+  margin: .75rem 1.75rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.main .hero {
+  margin-top: 1rem;
+}
+
+.main .hero-area {
+  background-color: #acacac;
+  border-radius: 13px 26px;
+  padding: 0.25rem 1.25rem;
+  width: 50vw;
+  position: relative;
+  left: 5rem;
+  top: 5rem;
+}
+
+.main .hero-area-title {
+  padding: .8rem 2rem .5rem;
+}
+
+.main .hero-banner {
+  height: 40vh;
+  background-image: url(../../img/developer_activity_plain.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  right: 2rem;
+  z-index: -1;
+}
+/*# sourceMappingURL=styles.css.map */

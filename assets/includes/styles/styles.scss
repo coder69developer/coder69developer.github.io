@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota&display=swap');
+
+@import 'vars';
+@import 'mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bellota', cursive;
+    font-size: 18px;
+}
+
+@include themable(dark-theme, $dark-theme-bg, $text-color, $btn-bg);
+@include themable(light-theme, #f0f0f0, #080707, #32c78b);
+
+.header {
+    .logo-brand {
+        display: inline-block;
+        margin: 1rem 1.75rem;
+        padding-top: .75rem;
+        line-height: 1;
+
+        .logo-link {
+            text-decoration: none;
+        }
+
+        :hover {
+            cursor: pointer;
+        }
+    }
+
+    .navbar {
+        display: flex;
+        float: right;
+        justify-content: center !important;
+
+        a {
+            text-decoration: none;
+            margin: .75rem 1.75rem;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    }
+}
+
+// main body start form here
+.main {
+    .hero {
+        margin-top: 1rem;
+
+        &-area {
+            background-color: #acacac;
+            border-radius: 13px 26px;
+            padding: 0.25rem 1.25rem;
+            width: 50vw;
+            position: relative;
+            left: 5rem;
+            top: 5rem;
+
+            &-title {
+                padding: .8rem 2rem .5rem;
+            }
+
+            &-para {
+            }
+        }
+
+        &-banner {
+            height: 40vh;
+            background-image: url(../../img/developer_activity_plain.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+            position: relative;
+            right: 2rem;
+            z-index: -1;
+        }
+
+    }
+
+    // hero section end here
+
+}

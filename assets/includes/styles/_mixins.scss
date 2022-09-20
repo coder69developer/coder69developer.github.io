@@ -1,0 +1,18 @@
+
+@mixin themable($theme-name, $main-bg, $text-color, $button-bg) {
+    .#{$theme-name} {
+        background-color: $main-bg;
+        
+        *{
+            color: $text-color;
+        }
+        .btn{
+            background-color: $button-bg;
+            padding: .75rem 1.25rem;
+                      
+        }
+       
+    }
+ }
+
+ 
