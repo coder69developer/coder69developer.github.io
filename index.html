@@ -6,93 +6,272 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simran Singh</title>
-    <link rel="stylesheet" href="./assets/includes/styles/styles.css">
+    <!-- Favcon Icon -->
+    <link rel="shortcut icon" href="img/profile.jpg" type="image/x-icon">
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon CDN link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css">
 </head>
 
-<body class="light-theme">
-    <header class="header">
-        <div class="logo-brand">
-            <a href="/" class="logo-link">
-                <span class="logo-name">Coder69developer</span>
-            </a>
-        </div>
-        <nav class="navbar">
-            <a href="#home" class="list-link">Home</a>
-            <a href="#about" class="list-link">About</a>
-            <a href="#project" class="list-link">Project</a>
-            <a href="#contact" class="list-link">Contact</a>
-        </nav>
+<body>
+
+    <!-- ========================= Navigation Bar ======================= -->
+    <header>
+        <!-- logo -->
+        <a href="" class="logo">Simran Singh</a>
+
+        <!-- button for responsive design -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!-- menu items -->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
     </header>
-    <main class="main">
-        <section class="hero" id="home">
-            <div class="hero-banner"></div>
-            <div class="hero-area">
-                <h1>Hey! This is Simran Singh. <img src="./assets/icons/hand_wave_icon.png" alt="hand wave" width="30"
-                        height="30">
-                </h1>
-                <p>I am Frontend-developer with 2 years of experience.</p>
-                <button class="btn btn-download">Download CV</button>
-            </div>
-            
-        </section>
-        <!-- about section here -->
-        <div id="about" class="container">
-            <div class="container-about">
-                <h3>About me!</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Tempora fugiat assumenda in nemo nulla inventore illo enim alias magnam quam?</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quis, harum rem quibusdam maiores, nisi
-                    fugiat maxime saepe tempore minus nulla vel! Nisi temporibus
-                    provident ullam earum! Architecto natus sapiente doloribus reiciendis illo voluptatibus facilis!</p>
-            </div>
 
-            <!-- skills section here -->
-
-            <div class="container-skills">
-                <h3>Skills</h3>
-                <div class="div-grid">
-                    <div class="card">
-                        <img class="icon-svg" src="./assets/icons/html5.svg">
-                        <p>Html</p>
-                    </div>
-                    <div class="card">
-                        <img class="icon-svg" src="./assets/icons/css3.svg">
-                        <p>Css3</p>
-                    </div>
-                    <div class="card">
-                        <img class="icon-svg" src="./assets/icons/language-javascript.svg">
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="card">
-                        <img class="icon-svg" src="./assets/icons/bootstrap.svg">
-                        <p>Bootstarp</p>
-                    </div>
-                    <div class="card">
-                        <img class="icon-svg" src="./assets/icons/material-ui.svg">
-                        <p>Material</p>
-                    </div>
-                    <div class="card">
-                        <img class="icon-svg" src="./assets/icons/angular.svg">
-                        <p>Angular</p>
-                    </div>
-                    <div class="card">
-                        <img class="icon-svg" src="./assets/icons/react.svg">
-                        <p>Reactjs</p>
-                    </div>
-                    <div class="card">
-                        <img class="icon-svg" src="./assets/icons/bulma.svg">
-                        <p>Bulma</p>
-                    </div>
-                    <div class="card">
-                        <img class="icon-svg" src="./assets/icons/linux.svg">
-                        <p>Linux</p>
-                    </div>
-                </div>
-            </div>
+    <!-- =========================Home Section ============================ -->
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/singhcodex" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/simranjeet-singh-329633225/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href=""><i class="bx bxl-gmail"></i></a>
         </div>
 
+        <!-- Home Image -->
+        <div class="home-img">
+            <img src="/img/main-img.jpg" alt="">
+        </div>
 
-    </main>
+        <!-- Home Content -->
+        <div class="home-text">
+            <span>Hello I'm</span>
+            <h1>Simran Singh</h1>
+            <h2>Frontend Developer</h2>
+            <p>A passionate Frontend developer 🚀 having a special interest in Frontent development with new Technology.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <!--======================================= About Section =========================== -->
+
+    <section class="about" id="about">
+        <!-- Heading -->
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+
+        <!-- About content -->
+        <div class="about-container">
+            <!-- Image -->
+            <div class="about-img">
+                <img src="/img/122.jpg" alt="">
+            </div>
+
+            <!-- About Text -->
+            <div class="about-text">
+                <p>A web development enthusiast and a self-taught developer having a special interest in Frontend technologies, 
+                     and building real-world web applications using HTML, CSS, Bootstrap and React JS
+                </p>
+
+                <!-- Some Information -->
+                <div class="information">
+                    <!-- box 1 -->
+                    <div class="box-info">
+                        <i class="bx bxs-user"></i>
+                        <span>Simran Singh</span>
+                    </div>
+
+                    <!-- box 2 -->
+                    <div class="box-info">
+                        <i class="bx bxs-phone"></i>
+                        <span>+49 17647071125</span>
+                    </div>
+
+                    <!-- box 3-->
+                    <div class="box-info">
+                        <i class="bx bxs-envelope"></i>
+                        <span>singh.hessen@gmail.com</span>
+                    </div>
+
+                </div>
+                <a href="/Simernjeet_Singh_CV.pdf" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ================================= Skills section ============================= -->
+
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+
+        <!-- Skills Content -->
+        <div class="skills-container">
+            <div class="bars">
+                <!-- box 1 -->
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>94%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+
+                <!-- box 2 -->
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>84%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+
+                <!-- box 3 -->
+                <div class="bars-box">
+                    <h3>JavaScript</h3>
+                    <span>74%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+
+                <!-- box 4 -->
+                <div class="bars-box">
+                    <h3>React</h3>
+                    <span>90%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>    
+            
+            <!-- Skills image -->
+            <div class="skills-img">
+                <img src="/img/123.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!--================================ Services ================================== -->
+
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>Our Services</span>
+        </div>
+
+        <div class="services-content">
+            <!-- box-1 -->
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Developement</h3>
+                <a href="">Learn More</a>
+            </div>
+              <!-- box-2 -->
+              <div class="services-box">
+                <i class="bx bx-server"></i>
+                <h3>Backend Developement</h3>
+                <a href="">Learn More</a>
+            </div>
+              <!-- box-3 -->
+              <div class="services-box">
+                <i class="bx bx-brush"></i>
+                <h3>UI/UX Design</h3>
+                <a href="">Learn More</a>
+            </div>
+              <!-- box-4 -->
+              <div class="services-box">
+                <i class="bx bxl-wordpress"></i>
+                <h3>Wordpress Developer </h3>
+                <a href="">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--================================ Portfolio Section=============================== -->
+
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <span>Our Recent Work</span>
+        </div>
+
+        <div class="portfolio-content">
+            <div class="portfolio-img">
+                <img src="img/blog-2.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="img/blog-3.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="img/blog-4.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="img/blog-5.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="img/blog-6.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="img/blog-7.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+<!--================================ Services ================================== -->
+
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Contact With Me</span>
+        </div>
+
+        <div class="services-content">
+            <!-- box-1 -->
+            <div class="services-box">
+                <i class="bx bxs-phone"></i>
+                <h3>Phone</h3>
+                <a href="">07027617576</a>
+            </div>
+              <!-- box-2 -->
+              <div class="services-box">
+                <i class="bx bxs-envelope"></i>
+                <h3>Email</h3>
+                <a href="">manjitluhera@gamil.com</a>
+            </div>
+              <!-- box-3 -->
+              <div class="services-box">
+                <i class="bx bxl-linkedin"></i>
+                <h3>LinkedIn</h3>
+                <a href="linkedin.com/in/manjit-luhera-72042b181" target="_blank">manjitluhera</a>
+            </div>
+              <!-- box-4 -->
+              <div class="services-box">
+                <i class="bx bxl-github"></i>
+                <h3>Github </h3>
+                <a href="https://github.com/manjitluhera" target="_blank">manjitluhera</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- JS file -->
+    <script src="script.js"></script>
 </body>
 
 </html>
